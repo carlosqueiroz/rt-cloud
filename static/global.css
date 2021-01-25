@@ -2,3 +2,120 @@
 :global(.pv-break-word) {
   word-break: break-word;
 }
+
+:global(.v-tabs-bar) {
+  background-color: rgb(38, 39, 49)!important;
+}
+
+:global(.v-tab:not(.v-tab--active)) {
+ color:#64677d!important;
+}
+
+:global(.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled)) {
+ color:#64677d!important;
+}
+
+:global(.theme--light.v-select .v-select__selection--comma) {
+ color:#64677d!important;
+}
+
+:global(.v-window__container) {
+  background-color: rgb(38, 39, 49)!important;
+}
+
+:global(.v-expansion-panel) {
+  background-color: rgb(51, 54, 72)!important;
+  color:rgb(247 253 245)!important;
+}
+ 
+:global(.v-sheet) {
+  background-color: rgb(51, 54, 72)!important;
+  color:rgb(247 253 245)!important;
+}
+ 
+:global(.v-card) {
+  background-color: rgb(51, 54, 72)!important;
+  color:rgb(247 253 245)!important;
+}
+
+:global(.v-list-item){
+ color:rgb(247 253 245)!important;
+}
+ 
+:global(.primary--text){
+ color:#039be5!important;
+}
+
+:global(.theme--light.v-btn.v-btn--icon){
+ color:#64677d!important;
+}
+:global(.v-btn){
+ color:#64677d!important;
+}
+
+:global(.v-icon ){
+ color:#64677d!important;
+}
+
+:global(.primary.lighten-3){
+ color:#64677d!important;
+ border-color:#64677d!important; 
+}
+
+:global(label){
+ color:#64677d!important;
+}
+
+:global(.v-card__text){
+ color:#d8d8d8!important;
+ background-color: rgb(51 54 72)!important;
+}
+
+:global(input){
+ color:#64677d!important;
+}
+
+:global(textarea){
+ color:#64677d!important;
+}
+
+:global(.v-main__wrap){
+ color:#20a5d6!important;
+}
+
+:global(.LayoutView-grid-2kd2k){
+ background-color:rgb(68 98 111)!important;
+}
+:global(.VtkView-activeView-tpnv3){
+ background: linear-gradient(135deg, rgba(32,165,214,1) 0%,rgba(32,165,214,1) 50%,rgba(32,165,214,1) 51%)!important;
+}
+
+:global(.App-appContent-3p988){
+ padding: 0px 300px 0px 0px !important;
+}
+
+:global(nav){
+  left: auto!important;
+  right: 0!important;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 12px
+}
+
+::-webkit-scrollbar-thumb {
+	background: #52566e;
+	border-radius: 12px
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #039be5
+}
+
+

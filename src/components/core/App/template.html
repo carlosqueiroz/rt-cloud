@@ -1,6 +1,5 @@
 <drag-and-drop
-  :enabled="!landingVisible && !fileUploadDialog"
-  v-on:drop="openFileList"
+ 
 >
   <template v-slot:default="{ dragHover }">
     <v-app
@@ -19,6 +18,9 @@
         <controls-drawer />
       </v-navigation-drawer>
 
+
+<!-- BARRA DE FERRAMENTAS -->
+  <!--
       <v-app-bar app clipped-left>
         <v-app-bar-nav-icon
           :disabled="landingVisible"
@@ -93,7 +95,7 @@
               v-on:click="aboutDialog = true"
               :state="state"
             >
-              <!-- width of other icons in toolbar -->
+           
               <svg-icon
                 icon="kitware-logo"
                 width="24px"
@@ -104,6 +106,7 @@
           </template>
         </collapsible-toolbar>
       </v-app-bar>
+    -->
 
       <v-content :class="$style.appContent">
         <landing
